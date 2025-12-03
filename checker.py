@@ -25,7 +25,7 @@ httpcore_logger.propagate = False
 
 GITHUB_TOKEN = os.environ.get('GITHUB_TOKEN', '')
 REPO_LIST = (
-    ('origin', 'panda-zxs/runner'),
+    ('pdaz000', 'panda-zxs/runner'),
     ('pdaz001', 'pdaz001/runner'),
     ('pdaz002', 'pdaz002/runner'),
     ('pdaz003', 'pdaz003/runner'),
