@@ -61,6 +61,8 @@ def main():
     tasks_per_worker = length // worker_tasks_nums + 1
     logger.info(f'需要worker数量 {tasks_per_worker}')
     nochange = 0
+    # 打乱REPO_LIST顺序
+    random.shuffle(REPO_LIST)
     for name, repo in REPO_LIST:
         if tasks_per_worker == 0:
             break
